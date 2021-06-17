@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JabTyper</title>
+    <link rel="icon" href="./img/índice.png" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="center-align">
+            <img class="responsive-img" src="./img/índice.png" alt="teclado" style="margin:-20px 0px -50px 0px;">
+
+            <h2>JabTyper</h2>
+            <h5>Digite o mais rápido quanto puder!</h5>
+            <p class="frase"> Sorry Sorry Sorry Sorry Naega naega naega meonjeo Nege nege nege ppajyeo Ppajyeo ppajyeo beoryeo Baby Shawty Shawty Shawty Shawty Nuni busyeo busyeo busyeo Sumi makhyeo makhyeo makhyeo Naega michyeo michyeo Baby</p>
+            
+            <span id="num_palavras"></span>
+            <br>
+            <span id="tempo-jogo">20 </span> Segundos
+            <br>   
+            <!--<textarea class='texto' cols="60" rows="10" > </textarea>-->
+            <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="texto"></textarea>
+                      <label for="textarea1"></label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+            <div class="restart"><a class="waves-effect waves-light btn"><i class="material-icons left">autorenew</i>Reiniciar</a></div>
+            <br>
+
+            <div class="caracteres"></div>
+            <span>Caracteres</span>
+
+            <div class="palavras"></div> 
+            <span>Palavras Digitadas</span>
+            
+                <h3>Pontuação</h3>
+                <br/>
+
+                <table class="striped centered pontos">
+                    <thead>
+                      <tr>
+                        <th>Nome</th>
+                        <th>Palavras por Minuto</th>
+                        <th>Apagar</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="player"></tr>
+                    </tbody>
+                </table>
+        </div>  
+    </div>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script src="js/main.js"></script> 
+        <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+             
+    
+    </body>
+</html>
